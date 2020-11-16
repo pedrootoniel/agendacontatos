@@ -22,7 +22,7 @@ export const FooterStyled = styled.div`
 
     p{
     margin-bottom:60px;    
-    background-image: url('http://i.imgur.com/suugW7P.gif');
+  
      color:yellow;
      font-size:25px;
      

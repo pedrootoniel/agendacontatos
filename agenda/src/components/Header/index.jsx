@@ -18,7 +18,9 @@ function Header() {
 
    
         
-        <Link to="/"> Home </Link>
+        <a href="/"> Home </a>
+        <a href="/AddContact"> ADICIONAR CONTATOS </a>
+        <a href="/EditContact"> ADQUIRIR MAIS CONTATOS </a>
 
     <div className="fixedcallicon">
 	  <i class="fa fa-phone"></i><span className="hide">4002-8922</span>
@@ -38,4 +40,5 @@ function Header() {
 
   )
 }
+
 export default Header;

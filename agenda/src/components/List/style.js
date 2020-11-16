@@ -6,6 +6,10 @@ export const ListStyled = styled.div`
         flex-wrap:wrap;
 
         .container-list{
+            a{
+                text-decoration:none;
+                color:white;
+                }
 
             color:white;
             font-size:18px;

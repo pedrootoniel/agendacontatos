@@ -10,8 +10,8 @@ function Routes(){
 
         <BrowserRouter>
             <Route path="/" exact component={List} />
-            <Route path="/newcontact" component={AddContact} />
-            <Route path="/contacts/:id" component={EditContact} />
+            <Route path="/Addcontact" component={AddContact} />
+            <Route path="/EditContact/:id" component={EditContact} />
         </BrowserRouter>
 
 
